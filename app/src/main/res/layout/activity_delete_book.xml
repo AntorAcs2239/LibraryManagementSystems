@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DeleteBook">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardBackgroundColor="#2F4F4F"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="20dp"
+        app:cardMaxElevation="10dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/image"
+                android:src="@drawable/joker"
+                android:scaleType="fitXY"
+                android:layout_width="300dp"
+                android:layout_marginTop="10dp"
+                android:layout_height="300dp"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:id="@+id/detailbookname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/image"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/cherry_swash"
+                android:text="Teach Yourself"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/detailwritername"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/detailbookname"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/cherry_swash"
+                android:text="Herbert"
+                android:textColor="@color/white"
+                android:textSize="25sp" />
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rippleeffectforbtn"
+                android:layout_centerHorizontal="true"
+                android:text="Delete Book!"
+                android:textColor="@color/white"
+                android:textAlignment="center"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@+id/detailwritername"
+                />
+            <Button
+                android:id="@+id/goback"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/delete"
+                android:layout_marginTop="10dp"
+                android:padding="10dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/rippleeffectforbtn"
+                android:fontFamily="@font/cherry_swash"
+                android:text="Go back"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

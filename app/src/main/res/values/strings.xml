@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">Mec Library</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="searchbook">Book Name or Writer Name</string>
+    <string name="sentrequ">Sent Request</string>
+    <string name="goback">Go back</string>
+    <string name="limit">Your Request Limit is 5</string>
+    <string name="nointernet">No Internet Connection</string>
+    <string name="image">Book Image</string>
+    <string name="signin">Student SignIn</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="needaccount">Need a Account</string>
+    <string name="resetpassword">Reset Password</string>
+    <string name="welcome">Welcome to MEC Digital Library</string>
+    <string name="cancle">Cancel</string>
+    <string name="accepted">Accept</string>
+    <string name="profile">Your Profile</string>
+    <string name="mec">Mymensing Engineering College</string>
+    <string name="curbook">Current Book Collection</string>
+    <string name="pending">Pending Request</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="catagory">
+        <item>Programming</item>
+        <item>Developement</item>
+        <item>General Subject</item>
+        <item>Civil</item>
+        <item>EEE</item>
+        <item>Software</item>
+        <item>Maths</item>
+        <item>Thesis</item>
+        <item>Project</item>
+        <item>Researse</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="amountofbook">
+        <!--        <item>Number of Books</item>-->
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+    </string-array>
+    <string-array name="department">
+        <item>Select Department</item>
+        <item>CSE</item>
+        <item>CIVIL</item>
+        <item>EEE</item>
+        <item>SOFTWARE</item>
+        <item>MECHANICAL</item>
+    </string-array>
+    <string-array name="batch">
+        <item>Select Batch</item>
+        <item>1st</item>
+        <item>2nd</item>
+        <item>3rd</item>
+        <item>4th</item>
+        <item>5th</item>
+        <item>6th</item>
+        <item>7th</item>
+        <item>8th</item>
+        <item>9th</item>
+        <item>10th</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="session">
+        <item>Select Session</item>
+        <item>2010-2011</item>
+        <item>2011-2012</item>
+        <item>2012-2013</item>
+        <item>2013-2014</item>
+        <item>2014-2015</item>
+        <item>2015-2016</item>
+        <item>2016-2017</item>
+        <item>2017-2018</item>
+        <item>2018-2019</item>
+        <item>2019-2020</item>
+        <item>2020-2021</item>
+        <item>2021-2022</item>
+        <item>2022-2023</item>
+        <item>2023-2024</item>
+        <item>2024-2025</item>
+        <item>2025-2026</item>
+        <item>2026-2027</item>
+        <item>2027-2028</item>
+        <item>2028-2029</item>
+        <item>2029-2030</item>
+    </string-array>
+</resources>

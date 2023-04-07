@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#607D8B"
+    tools:context=".FriendsFragment">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recforpdf"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/search" />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/search"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rippleeffectforsearchbar"
+        android:drawableLeft="@drawable/searchicon"
+        android:drawablePadding="5dp"
+        android:ems="10"
+        android:fontFamily="@font/cherry_swash"
+        android:hint="Search Pdf By title..."
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColor="#292828"
+        android:textColorHint="#292828"
+        app:backgroundColor="#145369"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

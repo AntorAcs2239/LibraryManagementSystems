@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#607D8B"
+    android:scrollIndicators="left"
+    android:scrollbars="vertical"
+    tools:context=".BookListFragment">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/cherry_swash"
+            android:text="Mymensingh Engineering College"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp" />
+        <TextView
+            android:fontFamily="@font/cherry_swash"
+            android:text="Library, Book Collection"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+        <RelativeLayout
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:text="CSE"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/cse"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="See all"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/reccse"
+                android:nestedScrollingEnabled="false"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/cse"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:text="EEE"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/eee"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="See all"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/receee"
+                android:nestedScrollingEnabled="false"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/eee"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:text="Civil"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/cv"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="See all"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/reccv"
+                android:nestedScrollingEnabled="false"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/cv"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:text="General Subjects"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/general"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="See all"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recgeneral"
+                android:layout_width="match_parent"
+                android:layout_below="@+id/general"
+                android:nestedScrollingEnabled="false"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:text="Bangabandhu"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/banga"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="See all"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recforbanga"
+                android:layout_width="match_parent"
+                android:nestedScrollingEnabled="false"
+                android:layout_below="@+id/banga"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:text="Thesis Paper"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/thesis"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="See all"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recforthesis"
+                android:layout_width="match_parent"
+                android:nestedScrollingEnabled="false"
+                android:layout_below="@+id/thesis"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+            <TextView
+                android:text="Others"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                />
+            <TextView
+                android:id="@+id/others"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="10dp"
+                android:text="See all"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recforothers"
+                android:layout_width="match_parent"
+                android:nestedScrollingEnabled="false"
+                android:layout_below="@+id/others"
+                android:layout_marginTop="2dp"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
